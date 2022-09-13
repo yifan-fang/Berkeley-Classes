@@ -1,0 +1,14 @@
+name: spring2022_stat133_project3_yifan_fang
+title: spring2022_stat133_project3_yifan_fang
+username:
+account: yifanfang
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6197836
+bundleId: 5849491
+url: https://yifanfang.shinyapps.io/spring2022_stat133_project3_yifan_fang/
+when: 1651204988.01493
+lastSyncTime: 1651204988.01495
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: project3_r_markdown.Rmd

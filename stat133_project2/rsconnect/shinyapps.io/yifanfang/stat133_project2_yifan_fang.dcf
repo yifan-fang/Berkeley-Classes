@@ -1,0 +1,14 @@
+name: stat133_project2_yifan_fang
+title: stat133_project2_yifan_fang
+username:
+account: yifanfang
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6041876
+bundleId: 5775764
+url: https://yifanfang.shinyapps.io/stat133_project2_yifan_fang/
+when: 1649363364.83747
+lastSyncTime: 1649363364.83749
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app-template.R

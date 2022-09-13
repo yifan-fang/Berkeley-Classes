@@ -1,0 +1,38 @@
+---
+title: "project3-r-markdown"
+author: "Yifan Fang"
+date: "4/21/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(tidytext)
+
+dat <- read.csv('state-union-2001-2022.csv')
+dat
+```
+
+```{r}
+tok1 = unnest_tokens(tbl = dat, output = word, input = message)
+obama = tok1 %>%
+      filter(president == 'Barack Obama') %>%
+      inner_join(get_sentiments('bing')) %>%
+      count(word, sentiment, sort = TRUE) %>%
+      filter(sentiment == 'negative') %>% 
+      slice_head(n = 5)
+
+bush = tok1 %>%
+      filter(president == 'George W. Bush') %>%
+      inner_join(get_sentiments('bing')) %>%
+      count(word, sentiment, sort = TRUE) %>%
+      filter(sentiment == 'positive') %>% 
+      slice_head(n = 5)
+    
+obama
+bush
+```
+
+
+
