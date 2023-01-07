@@ -1,5 +1,7 @@
 # Berkeley-Classes
 You can find my class projects here!
+- R: Stat 133
+- Python: Data C100
 <br/>
 
 ## Projects description
