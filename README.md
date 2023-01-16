@@ -15,4 +15,5 @@ You can find my class projects here!
 - Part A includes basic exploratory data analysis (EDA), adding a few new features to the dataset, and data cleaning as well. 
 - Part B fits a linear model for the purpose of prediction, analyzed the error of the model, and brainstormed ways to improve the model's performance.
 ### CS 61B Data Structures
+- Due to academic honesty policies, this project is not publicly available on my github but I am more than happy to share my code for job applications/career purposes.
 - Project 2 builds the back end of a browser based tool for exploring the history of word usage in English texts, accepting input and generating appropriate output for display.
