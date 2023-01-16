@@ -2,6 +2,7 @@
 You can find my class projects here!
 - R: Stat 133
 - Python: Data C100
+- Java: CS 61B
 <br/>
 
 ## Projects description
@@ -13,3 +14,5 @@ You can find my class projects here!
 - Data C100 Proj1: This project explores what can be learned from an extensive housing data set that is embedded in a dense social context in Cook County, Illinois. 
 - Part A includes basic exploratory data analysis (EDA), adding a few new features to the dataset, and data cleaning as well. 
 - Part B fits a linear model for the purpose of prediction, analyzed the error of the model, and brainstormed ways to improve the model's performance.
+### CS 61B Data Structures
+- Project 2 builds the back end of a browser based tool for exploring the history of word usage in English texts, accepting input and generating appropriate output for display.
